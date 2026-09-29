@@ -1,0 +1,29 @@
+deep_squat:
+  ui_id: 1
+  plane: sagittal
+  bilateral: true
+  segment_signal: knee_flex_mean
+
+inline_lunge:
+  ui_id: 3
+  plane: sagittal
+  bilateral: false
+  segment_signal: active_knee_flex
+
+side_lunge:
+  ui_id: 4
+  plane: frontal
+  bilateral: false
+  segment_signal: pelvis_lateral
+
+aslr:
+  ui_id: 6
+  plane: sagittal
+  bilateral: false
+  segment_signal: active_hip_flex
+
+shoulder_abduction:
+  ui_id: 7
+  plane: frontal
+  bilateral: false
+  segment_signal: active_shoulder_abduction

@@ -1,0 +1,23 @@
+seed: 42
+
+video:
+  target_fps: 30
+  min_duration_sec: 5
+
+pose:
+  model: yolo26n-pose.pt
+  required_conf: 0.50
+
+qc:
+  min_bbox_height_ratio: 0.40
+  min_required_joint_ratio: 0.85
+  max_interp_gap: 3
+  min_sequence_valid_ratio: 0.85
+
+processing:
+  smooth: savgol
+  savgol_window: 7
+  savgol_polyorder: 2
+
+sequence:
+  tcn_frames: 64
