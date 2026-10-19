@@ -1,3 +1,6 @@
+#开运算，先腐蚀再膨胀，闭运算，先膨胀再腐蚀
+#质心，
+
 import cv2
 from pathlib import Path
 import numpy as np
